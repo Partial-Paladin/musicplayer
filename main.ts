@@ -2,7 +2,7 @@ input.onButtonPressed(Button.A, function () {
     music.stopAllSounds()
     basic.clearScreen()
     track += 1
-    if (track == 12) {
+    if (track == 13) {
         track = 1
     }
     basic.showNumber(track)
@@ -163,6 +163,8 @@ input.onButtonPressed(Button.B, function () {
         } else {
             music.startMelody(music.builtInMelody(Melodies.Funeral), MelodyOptions.ForeverInBackground)
         }
+    } else {
+    	
     }
 })
 let loop = 0
